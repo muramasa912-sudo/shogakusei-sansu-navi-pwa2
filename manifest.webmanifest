@@ -1,6 +1,7 @@
 {
   "name": "小学生算数ナビ",
   "short_name": "算数ナビ",
+  "id": "./",
   "description": "低学年から高学年まで、図解・読み上げ・先生コメントで考え方を学べる算数学習アプリです。",
   "lang": "ja-JP",
   "start_url": "./",
@@ -12,7 +13,7 @@
   "categories": ["education", "kids"],
   "icons": [
     {
-      "src": "icons/icon-512.png",
+      "src": "./icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
