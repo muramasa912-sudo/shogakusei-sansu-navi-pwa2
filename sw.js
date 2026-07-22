@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "shogakusei-sansu-navi-ipad";
-const CACHE_NAME = `${CACHE_PREFIX}-v10`;
+const CACHE_NAME = `${CACHE_PREFIX}-v13`;
 const APP_SHELL = [
   "./",
   "index.html",
@@ -8,7 +8,14 @@ const APP_SHELL = [
   "icons/apple-touch-icon.png",
   "images/teacher-character.png",
   "images/teacher-correct.png",
-  "images/teacher-incorrect.png"
+  "images/teacher-incorrect.png",
+  "images/teacher-evolution/teacher_level_01.webp",
+  "images/teacher-evolution/teacher_level_15.webp",
+  "images/teacher-evolution/teacher_level_30.webp",
+  "images/teacher-evolution/teacher_level_45.webp",
+  "images/teacher-evolution/teacher_level_60.webp",
+  "images/teacher-evolution/teacher_level_80.webp",
+  "images/teacher-evolution/teacher_level_99.webp"
 ];
 
 function normalizeLocalAssetPath(path) {
